@@ -5,42 +5,61 @@ let currentOnlineCount = 1;
 
 export const BACKEND_URL = (((import.meta as any).env?.VITE_API_URL) || '').replace(/\/$/, '');
 
-if (typeof window !== 'undefined') {
-  socket = io(BACKEND_URL || window.location.origin, {
-    transports: ['websocket', 'polling'],
-    autoConnect: true,
-    reconnection: true,
-    reconnectionAttempts: 10,
-    reconnectionDelay: 1000,
-  });
+const isStaticOnlyHost =
+  typeof window !== 'undefined' &&
+  !BACKEND_URL &&
+  (window.location.hostname.endsWith('github.io') || window.location.protocol === 'file:');
 
-  socket.on('connect', () => {
-    console.log('⚡ Connected to Gameland Real-Time Socket Server');
-  });
+if (typeof window !== 'undefined' && !isStaticOnlyHost) {
+  const targetServer = BACKEND_URL || window.location.origin;
+  try {
+    socket = io(targetServer, {
+      transports: ['websocket', 'polling'],
+      autoConnect: true,
+      reconnection: true,
+      reconnectionAttempts: 5,
+      reconnectionDelay: 2000,
+      timeout: 10000,
+    });
 
-  socket.on('users:count', (data: { count: number }) => {
-    if (data && typeof data.count === 'number') {
-      currentOnlineCount = data.count;
-      window.dispatchEvent(new CustomEvent('gameland_online_users_update', { detail: data.count }));
-    }
-  });
+    socket.on('connect', () => {
+      console.log('⚡ Connected to Gameland Real-Time Backend on Cloud Run / Node server:', targetServer);
+    });
 
-  // Receive synced users database from server
-  socket.on('users:synced_all', (serverUsers: Record<string, any>) => {
-    if (serverUsers && typeof serverUsers === 'object') {
-      try {
-        const key = 'unblocked_users_v2';
-        const raw = localStorage.getItem(key);
-        const existing = raw ? JSON.parse(raw) : {};
-        const merged = { ...existing, ...serverUsers };
-        localStorage.setItem(key, JSON.stringify(merged));
-        window.dispatchEvent(new CustomEvent('gameland_users_updated', { detail: merged }));
-      } catch (e) {
-        console.error('Failed to merge server synced users', e);
+    socket.on('connect_error', (err) => {
+      // Graceful fallback to client-side storage when backend is unreachable or sleeping
+      console.warn('ℹ️ Backend Socket connection standby:', err.message || err);
+    });
+
+    socket.on('users:count', (data: { count: number }) => {
+      if (data && typeof data.count === 'number') {
+        currentOnlineCount = data.count;
+        window.dispatchEvent(new CustomEvent('gameland_online_users_update', { detail: data.count }));
       }
-    }
-  });
+    });
+
+    // Receive synced users database from server
+    socket.on('users:synced_all', (serverUsers: Record<string, any>) => {
+      if (serverUsers && typeof serverUsers === 'object') {
+        try {
+          const key = 'unblocked_users_v2';
+          const raw = localStorage.getItem(key);
+          const existing = raw ? JSON.parse(raw) : {};
+          const merged = { ...existing, ...serverUsers };
+          localStorage.setItem(key, JSON.stringify(merged));
+          window.dispatchEvent(new CustomEvent('gameland_users_updated', { detail: merged }));
+        } catch (e) {
+          console.error('Failed to merge server synced users', e);
+        }
+      }
+    });
+  } catch (err) {
+    console.warn('Socket initialization standby:', err);
+  }
+} else if (isStaticOnlyHost) {
+  console.info('ℹ️ Running in GitHub Pages static client mode. Configure VITE_API_URL in repository secrets to link Google Cloud Run backend.');
 }
+
 
 // Client Exported Functions
 export function emitSocketUserJoin(username: string) {
