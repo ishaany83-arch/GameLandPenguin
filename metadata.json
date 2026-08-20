@@ -1,0 +1,8 @@
+{
+  "name": "Remix GameLand By Pebbles The Penguin",
+  "description": "A clean, responsive unblocked games portal with dynamic iframe embeds, local JSON catalog, web proxies, and custom game manager created by Pebbles The Penguin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

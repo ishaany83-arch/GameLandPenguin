@@ -1,0 +1,395 @@
+[
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "slug": "retro-bowl",
+    "category": "Sports",
+    "description": "Pixel-art football franchise management and arcade gridiron action.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaanyus-web.github.io/Retro-Bowl/",
+    "embedType": "iframe",
+    "tags": ["sports", "retro", "football", "arcade", "popular"],
+    "rating": 4.9,
+    "playCount": 24500,
+    "controls": [
+      { "key": "Mouse / Touch", "action": "Pass & Aim" },
+      { "key": "Arrow Keys / WASD", "action": "Dodge & Run" }
+    ],
+    "author": "Retro Bowl Web",
+    "isPopular": true,
+    "isFeatured": true
+  },
+  {
+    "id": "polytrack",
+    "title": "Polytrack (v0.6.0)",
+    "slug": "polytrack",
+    "category": "Racing",
+    "description": "Low-poly 3D racing with custom track building and high-speed time trials.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaanyus-web.github.io/Polytrack-0.6.0/",
+    "embedType": "iframe",
+    "tags": ["racing", "3d", "track-builder", "cars", "popular"],
+    "rating": 4.8,
+    "playCount": 18200,
+    "controls": [
+      { "key": "WASD / Arrows", "action": "Drive & Steer" },
+      { "key": "Space", "action": "Handbrake / Drift" },
+      { "key": "R", "action": "Restart Track" }
+    ],
+    "author": "Polytrack Studio",
+    "isPopular": true,
+    "isNew": true
+  },
+  {
+    "id": "brawl-stars",
+    "title": "Brawl Stars",
+    "slug": "brawl-stars",
+    "category": "Action",
+    "description": "Fast-paced 3v3 multiplayer arena combat with unique brawlers, special abilities, and intense action.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaanyus-web.github.io/Brawl-Stars/",
+    "embedType": "iframe",
+    "tags": ["action", "multiplayer", "arena", "combat", "popular"],
+    "rating": 4.9,
+    "playCount": 32100,
+    "controls": [
+      { "key": "WASD / Mouse", "action": "Movement & Aim" },
+      { "key": "Left Click / Space", "action": "Normal Attack / Super" }
+    ],
+    "author": "Brawl Stars Web",
+    "isPopular": true,
+    "isFeatured": true,
+    "isVipExclusive": true
+  },
+  {
+    "id": "minecraft-web",
+    "title": "Minecraft Web",
+    "slug": "minecraft-web",
+    "category": "Survival",
+    "description": "Sandbox voxel mining, crafting, block building, and infinite survival in your browser.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaanyus-web.github.io/Minecraft/",
+    "embedType": "iframe",
+    "tags": ["minecraft", "sandbox", "building", "survival", "crafting", "popular"],
+    "rating": 4.9,
+    "playCount": 41200,
+    "controls": [
+      { "key": "WASD", "action": "Walk & Strafe" },
+      { "key": "Space", "action": "Jump" },
+      { "key": "Left Click", "action": "Mine / Destroy Block" },
+      { "key": "Right Click", "action": "Place Block" }
+    ],
+    "author": "Minecraft Web Edition",
+    "isPopular": true,
+    "isFeatured": true
+  },
+  {
+    "id": "browser-cuphead",
+    "title": "Browser Cuphead",
+    "slug": "browser-cuphead",
+    "category": "Action",
+    "description": "1930s rubber-hose animated boss battle runner and shoot-'em-up platformer.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaany83-arch.github.io/browser-cuphead/",
+    "embedType": "iframe",
+    "tags": ["action", "cuphead", "boss-fight", "retro", "runner"],
+    "rating": 4.8,
+    "playCount": 15900,
+    "controls": [
+      { "key": "Arrow Keys / WASD", "action": "Move & Aim" },
+      { "key": "Z / Space", "action": "Jump" },
+      { "key": "X / Click", "action": "Shoot" }
+    ],
+    "author": "Browser Cuphead Arch",
+    "isPopular": true,
+    "isNew": true
+  },
+  {
+    "id": "jujutsu-kaisen",
+    "title": "Jujutsu Kaisen (JJK)",
+    "slug": "jujutsu-kaisen",
+    "category": "Action",
+    "description": "Anime-inspired martial arts combat and curse technique battles.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaanyus-web.github.io/jjk/",
+    "embedType": "iframe",
+    "tags": ["anime", "action", "fighting", "combat", "jjk"],
+    "rating": 4.7,
+    "playCount": 12800,
+    "controls": [
+      { "key": "WASD / Arrows", "action": "Movement" },
+      { "key": "J / K / L", "action": "Attacks & Cursed Techniques" }
+    ],
+    "author": "JJK Web Arena",
+    "isNew": true,
+    "isVipExclusive": true
+  },
+  {
+    "id": "escape-road-3",
+    "title": "Escape Road 3",
+    "slug": "escape-road-3",
+    "category": "Racing",
+    "description": "High-speed traffic dodging, extreme police pursuit evasion, and survival driving.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaanyus-web.github.io/Escape-Road-1-2-3/Escape%20Road%203.html",
+    "embedType": "iframe",
+    "tags": ["driving", "police", "escape", "racing", "chase", "popular"],
+    "rating": 4.8,
+    "playCount": 27400,
+    "controls": [
+      { "key": "Arrow Keys / A & D", "action": "Steer Vehicle" },
+      { "key": "Space", "action": "Handbrake Drift" }
+    ],
+    "author": "Escape Road Studio",
+    "isPopular": true
+  },
+  {
+    "id": "escape-road-city",
+    "title": "Escape Road City",
+    "slug": "escape-road-city",
+    "category": "Racing",
+    "description": "Urban city driving and getaway evasion through congested city streets and alleys.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://fdfdsfadf.github.io/All-escape-road-games/escape-road-city/index.html",
+    "embedType": "iframe",
+    "tags": ["driving", "city", "escape", "police", "racing"],
+    "rating": 4.7,
+    "playCount": 19300,
+    "controls": [
+      { "key": "Arrow Keys / WASD", "action": "Steer Car" },
+      { "key": "Space", "action": "Brake" }
+    ],
+    "author": "Escape Road All-Stars"
+  },
+  {
+    "id": "escape-road-city-2",
+    "title": "Escape Road City 2",
+    "slug": "escape-road-city-2",
+    "category": "Racing",
+    "description": "Expanded city maps, high-heat police chases, new vehicles, and dangerous intersections.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://fdfdsfadf.github.io/All-escape-road-games/escape-road-city-2/index.html",
+    "embedType": "iframe",
+    "tags": ["driving", "city", "escape", "police", "chase", "new"],
+    "rating": 4.8,
+    "playCount": 21600,
+    "controls": [
+      { "key": "Arrow Keys / WASD", "action": "Steer Car" },
+      { "key": "Space", "action": "Nitro / Brake" }
+    ],
+    "author": "Escape Road All-Stars",
+    "isNew": true,
+    "isVipExclusive": true
+  },
+  {
+    "id": "geometry-dash-classic",
+    "title": "Geometry Dash (Classic)",
+    "slug": "geometry-dash-classic",
+    "category": "Rhythm",
+    "description": "Rhythm-based obstacle jumping, cube flipping, and electronic beat synchronization.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaanyus-web.github.io/Geometry-Dash/",
+    "embedType": "iframe",
+    "tags": ["rhythm", "platformer", "geometry-dash", "skill", "popular"],
+    "rating": 4.9,
+    "playCount": 38900,
+    "controls": [
+      { "key": "Space / Up Arrow / Click", "action": "Jump / Flip" }
+    ],
+    "author": "RobTop Games / Web Edition",
+    "isPopular": true,
+    "isFeatured": true
+  },
+  {
+    "id": "geometry-dash-mirror",
+    "title": "Geometry Dash (Mirror Server)",
+    "slug": "geometry-dash-mirror",
+    "category": "Rhythm",
+    "description": "Alternate dark canvas platforming node with smooth frame rates and level practice modes.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://soteris24.github.io/genetrydash.github.io/",
+    "embedType": "iframe",
+    "tags": ["rhythm", "platformer", "geometry-dash", "mirror"],
+    "rating": 4.8,
+    "playCount": 16400,
+    "controls": [
+      { "key": "Space / Left Click", "action": "Jump" }
+    ],
+    "author": "GenetryDash Node"
+  },
+  {
+    "id": "block-blast",
+    "title": "Block Blast",
+    "slug": "block-blast",
+    "category": "Puzzle",
+    "description": "Dark grid block-matching puzzle where you place shapes to clear rows and columns.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaanyus-web.github.io/BlockBlast/",
+    "embedType": "iframe",
+    "tags": ["puzzle", "block", "tetris", "matching", "popular"],
+    "rating": 4.8,
+    "playCount": 29800,
+    "controls": [
+      { "key": "Drag & Drop / Touch", "action": "Place Blocks on Grid" }
+    ],
+    "author": "Block Blast Web",
+    "isPopular": true
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "slug": "hextris",
+    "category": "Puzzle",
+    "description": "Fast-paced hexagonal block matching puzzle. Rotate the hexagon to align colored blocks.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://ishaany83-arch.github.io/hextris/",
+    "embedType": "iframe",
+    "tags": ["puzzle", "hexagon", "hextris", "arcade"],
+    "rating": 4.7,
+    "playCount": 14100,
+    "controls": [
+      { "key": "Left / Right Arrow Keys", "action": "Rotate Hexagon" }
+    ],
+    "author": "Hextris Arch"
+  },
+  {
+    "id": "joshis",
+    "title": "Joshis Portal",
+    "slug": "joshis",
+    "category": "Hubs",
+    "description": "Dedicated web games portal and arcade library hub.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://yoshijunior.github.io/",
+    "embedType": "iframe",
+    "tags": ["portal", "hub", "unblocked", "collection"],
+    "rating": 4.6,
+    "playCount": 11500,
+    "controls": [
+      { "key": "Mouse Navigation", "action": "Browse Games" }
+    ],
+    "author": "Yoshi Junior"
+  },
+  {
+    "id": "jobob",
+    "title": "JoBob Portal",
+    "slug": "jobob",
+    "category": "Hubs",
+    "description": "Unblocked 2026 gaming catalog and dedicated proxy portal.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "https://unblocked-2026.github.io/",
+    "embedType": "iframe",
+    "tags": ["portal", "hub", "unblocked", "2026"],
+    "rating": 4.7,
+    "playCount": 13200,
+    "controls": [
+      { "key": "Mouse Navigation", "action": "Browse & Play" }
+    ],
+    "author": "Unblocked 2026"
+  },
+  {
+    "id": "2048",
+    "title": "2048 Arctic Edition",
+    "slug": "2048",
+    "category": "Puzzle",
+    "description": "Join tiles to reach the legendary 2048 tile in this icy puzzle challenge!",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "about:blank",
+    "embedType": "srcDoc",
+    "tags": ["puzzle", "math", "2048", "popular"],
+    "rating": 4.8,
+    "playCount": 14200,
+    "controls": [
+      { "key": "Arrow Keys / WASD", "action": "Slide Tiles" }
+    ],
+    "author": "Gabriele Cirulli / Igloo Edition",
+    "isPopular": true
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Penguin",
+    "slug": "flappy-bird",
+    "category": "Arcade",
+    "description": "Flap through ice pipes and reach high scores without crashing into the glaciers!",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "about:blank",
+    "embedType": "srcDoc",
+    "tags": ["arcade", "flappy", "penguin", "skill"],
+    "rating": 4.7,
+    "playCount": 18900,
+    "controls": [
+      { "key": "Space / Click", "action": "Flap Wings" }
+    ],
+    "author": "Pebbles Studio"
+  },
+  {
+    "id": "snake",
+    "title": "Retro Ice Snake",
+    "slug": "snake",
+    "category": "Retro",
+    "description": "Classic arcade snake game with arctic fish food pickups and power-ups.",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "about:blank",
+    "embedType": "srcDoc",
+    "tags": ["retro", "snake", "arcade", "classic"],
+    "rating": 4.6,
+    "playCount": 12100,
+    "controls": [
+      { "key": "Arrow Keys", "action": "Steer Snake" }
+    ],
+    "author": "Arcade Classics"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris Glacier Rush",
+    "slug": "tetris",
+    "category": "Puzzle",
+    "description": "Stack falling ice polyominos, complete full lines, and clean up the grid!",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "about:blank",
+    "embedType": "srcDoc",
+    "tags": ["tetris", "puzzle", "classic", "blocks"],
+    "rating": 4.9,
+    "playCount": 22400,
+    "controls": [
+      { "key": "Left / Right", "action": "Move Block" },
+      { "key": "Up Arrow", "action": "Rotate" },
+      { "key": "Down Arrow", "action": "Soft Drop" },
+      { "key": "Space", "action": "Hard Drop" }
+    ],
+    "author": "Alexey Pajitnov / Igloo"
+  },
+  {
+    "id": "pacman",
+    "title": "Pac-Penguin Arcade",
+    "slug": "pacman",
+    "category": "Retro",
+    "description": "Chomp all ice dots while dodging Yeti ghosts in the icy maze!",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "about:blank",
+    "embedType": "srcDoc",
+    "tags": ["retro", "pacman", "arcade", "maze"],
+    "rating": 4.8,
+    "playCount": 16800,
+    "controls": [
+      { "key": "Arrow Keys", "action": "Navigate Maze" }
+    ],
+    "author": "Namco / Igloo Edition"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Fish Clicker Tycoon",
+    "slug": "cookie-clicker",
+    "category": "Strategy",
+    "description": "Click the mega fish, hire penguins, build fish farms, and automate your empire!",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?auto=format&fit=crop&q=80&w=600",
+    "embedUrl": "about:blank",
+    "embedType": "srcDoc",
+    "tags": ["clicker", "tycoon", "idle", "strategy"],
+    "rating": 4.7,
+    "playCount": 31000,
+    "controls": [
+      { "key": "Left Click", "action": "Catch Fish & Buy Upgrades" }
+    ],
+    "author": "Pebbles Idle Games"
+  }
+]
